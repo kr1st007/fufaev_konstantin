@@ -59,12 +59,17 @@
 #     print("Нет")
 
 #Zadanie 5 test
-m = int(input())
-d = int(input())
-if d > 31 or m > 12 or m < 1 or d < 1:
-    print(-1)
-inputDays = m * 31
+# m = int(input())
+# d = int(input())
 
+# days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
+# if m < 1 or m > 12:
+#     print(-1)
+# elif d < 1 or d > days[m - 1]:
+#     print(-1)
+# else:
+#     print(days[m - 1] - d + sum(days[m:]))
 
 #Zadanie 6
 # k = int(input())
